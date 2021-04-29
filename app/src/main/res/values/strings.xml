@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppCM</string>
+    <string name="hint_titulo">Título da Nota</string>
+    <string name="hint_descrição">Corpo da Nota</string>
+    <string name="bt_guardar">Guardar</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="add_nota">Add Nota</string>
+
+</resources>
