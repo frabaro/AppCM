@@ -30,6 +30,10 @@ class NotaListAdapter : ListAdapter<Nota, NotaListAdapter.NotaViewHolder>(NotasC
                 return NotaViewHolder(view)
             }
         }
+
+        init{
+
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NotaViewHolder {
@@ -41,6 +45,7 @@ class NotaListAdapter : ListAdapter<Nota, NotaListAdapter.NotaViewHolder>(NotasC
         //holder.notaItemView.text = current.titulo + " - " + current.descricao
         holder.notaItemTitulo.text = current.titulo
         holder.notaItemDescricao.text = current.descricao
+
     }
 
     class NotasComparator : DiffUtil.ItemCallback<Nota>() {
